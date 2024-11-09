@@ -25,11 +25,11 @@ clear;clear;clear
 
   # // Banner
 echo -e "${BLUE}----------------------------------------------------------${NC}"
-echo -e " WELCOME TO ZERO STORE SCRIPT ${BLUE}(${NC}${green}Stable Edition${NC}${BLUE})${NC}"
+echo -e " WELCOME TO PRIVATE FXHN STORE SCRIPT ${BLUE}(${NC}${green}Stable Edition${NC}${BLUE})${NC}"
 echo -e " PROSES PENGECEKAN IP ADDRESS ANDA !!"
 echo -e "${purple}----------------------------------------------------------${NC}"
-echo -e " ›AUTHOR : ${green} ZERO STORE ® ${NC}${BLUE}(${NC}${green}V 0.0${NC}${BLUE})${NC}"
-echo -e " ›TEAM : ZERO STORE ${BLUE}(${NC} 2024 ${BLUE})${NC}"
+echo -e " ›AUTHOR : ${green} FXHN STORE ® ${NC}${BLUE}(${NC}${green}V 0.0${NC}${BLUE})${NC}"
+echo -e " ›TEAM : FXHNN ${BLUE}(${NC} 2024 ${BLUE})${NC}"
 echo -e "${BLUE}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -82,7 +82,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/dit1304/VVIP/main/"
+    REPO="https://raw.githubusercontent.com/FarizFx/Nyoba/main/"
 
 ####
 start=$(date +%s)
@@ -269,7 +269,7 @@ curl "ipinfo.io/city?token=7a814b6263b02c" > /root/.city
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/dit1304/permision/main/zero"
+izinsc="https://raw.githubusercontent.com/FarizFx/permision/main/zero"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -305,8 +305,8 @@ else
 sts="${Error}"
 fi
 TIMES="10"
-CHATID="1462157376"
-KEY="7411243383:AAHQYNeVbGNZf0cjTmG0nySIw2P49LB2i2s"
+CHATID="1104326235"
+KEY="7864694568:AAFUsCWS0B-u_jfrwX1Kkzyu27_qSSgjHdo"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /root/.isp)
 CITY=$(cat /root/.city)
@@ -328,7 +328,7 @@ TIMEZONE=$(printf '%(%H:%M:%S)T')
 <code>────────────────────</code>
 <b> ZERO STORE VVIP SCRIPT  </b>
 <code>────────────────────</code>
-<i>Notifications From ZeroStore AutoSc</i>
+<i>Notifications From Fxhnn AutoSc</i>
 "'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ","url":"t.me/kakatiri"}]]}' 
 
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
