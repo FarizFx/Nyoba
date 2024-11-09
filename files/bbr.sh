@@ -18,7 +18,7 @@ clear
 #	 menu
 #else
 
-echo -e "Installing TCP ZERO STORE"
+echo -e "Installing TCP Fxhnn"
 echo -e "Please Wait BBR Installation Will Starting . . ."
 sleep 5
 clear
