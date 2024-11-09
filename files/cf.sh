@@ -3,7 +3,7 @@ MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 DOMAIN=v2riz.cloudns.asia
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
-dns=${sub}.zerooostore.my.id
+dns=${sub}.v2riz.cloudns.asia
 CF_ID=madfarizi@gmail.com
 CF_KEY=0e0a6b4b916bba97ed815cf77718cc0b26f4b
 set -euo pipefail
