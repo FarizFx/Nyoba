@@ -683,7 +683,7 @@ gotop_latest="$(curl -s https://api.github.com/repos/xxxserxxx/gotop/releases | 
     dpkg -i /tmp/gotop.deb >/dev/null 2>&1
     
         # > Buat swap sebesar 1G
-    dd if=/dev/zero of=/swapfile bs=1024 count=1048576
+    dd if=/dev/zero of=/swapfile bs=4096 count=1048576
     mkswap /swapfile
     chown root:root /swapfile
     chmod 0600 /swapfile >/dev/null 2>&1
@@ -1013,7 +1013,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ SCRIPT BY ZERO STORE ]-==============="
+echo "===============-[ SCRIPT BY FXHN STORE ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
